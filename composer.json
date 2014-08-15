@@ -1,0 +1,31 @@
+{
+  "name": "package-name",
+  "type": "library",
+  "version": "0.7.0",
+  "description": "A cms-kit wizard to set a Password to de/encrypt a cryptable Field",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "Christoph Taubmann",
+      "email": "info@cms-kit.com"
+    }
+  ],
+  "homepage": "http://cms-kit.com",
+
+    "require": {
+    "php": ">=5.3.3",
+    "cmskit/lib-jquery-ui": "dev-master"
+  },
+    "extra":{
+        "wizards":{
+            "VARCHAR": {
+                "description": "",
+                "embed": "wizard:fieldpassword\\nexternal:true"
+            },
+            "TEXT": {
+                "description": "",
+                "embed": "wizard:fieldpassword\\nexternal:true"
+            }
+        }
+    }
+}
