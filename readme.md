@@ -5,7 +5,10 @@ Path: cms-kit/backend/wizards/fieldpassword
 ## Description
 
 
-This Wizard lets you set a *individual Password* for an encryptable Field. The Field must have a Field-Name beginning with "c_". Inputs (Text-Fields) are de/encoded via Blowfish. The password is stored as a Session and will be deleted on Logout.
+This Wizard lets you set an *individual password* for an encryptable field.
+The field must have a field-name beginning with "c_".
+Inputs are de/encoded via Blowfish.
+The password is stored as a session and will be deleted on logout.
 
 
 If no Password is set, the Field is skipped while saving and the encrypted Content will not been shown in Backend!
