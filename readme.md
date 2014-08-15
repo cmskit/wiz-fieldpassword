@@ -30,8 +30,8 @@ To make it accessible from the backend simply put this into your settings
 3. If you want to define a fixed password (*only in trusted surroundings*)
 you can define your password in your settings and define a JSON-Object (Type object) *"crypt"*,
 witch you have to define an JSON-Object (Type object) with
-* your *Database-object-name* and
-* a JSON-Object (Type string) with your *field-name* holding your password.
+  * your *Database-object-name* and
+  * a JSON-Object (Type string) with your *field-name* holding your password.
 
 
 	"crypt":  {
