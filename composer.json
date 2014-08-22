@@ -1,5 +1,5 @@
 {
-  "name": "package-name",
+  "name": "cmskit/wizard-fieldpassword",
   "type": "library",
   "version": "0.7.0",
   "description": "A cms-kit wizard to set a Password to de/encrypt a cryptable Field",
@@ -12,8 +12,9 @@
   ],
   "homepage": "http://cms-kit.com",
 
-    "require": {
+  "require": {
     "php": ">=5.3.3",
+    "cmskit/package-installer": "1.0.*@dev",
     "cmskit/lib-jquery-ui": "dev-master"
   },
     "extra":{
